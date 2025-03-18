@@ -1,0 +1,53 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "NMEA 0183",
+	"scopeName": "source.nmea0183",
+	"patterns": [
+		{
+			"include": "#message_start"
+		},
+		{
+			"include": "#talker_id"
+		},
+		{
+			"include": "#data_fields"
+		},
+		{
+			"include": "#checksum"
+		}
+	],
+	"repository": {
+		"message_start": {
+			"patterns": [
+				{
+					"match": "[\\!|\\$]",
+					"name": "keyword.control.nmea0183"
+				}
+			]
+		},
+		"talker_id": {
+			"patterns": [
+				{
+					"match": "([A-Z]{2,3})",
+					"name": "constant.numeric.nmea0183"
+				}
+			]
+		},
+		"data_fields": {
+			"patterns": [
+				{
+					"match": ",",
+					"name": "support.class.nmea0183"
+				}
+			]
+		},
+		"checksum": {
+			"patterns": [
+				{
+					"match": "\\*([^,]*$)",
+					"name": "constant.character.nmea0183"
+				}
+			]
+		}
+	}
+}

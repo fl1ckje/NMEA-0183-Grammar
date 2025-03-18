@@ -1,0 +1,38 @@
+{
+  "name": "nmea-0183-grammar",
+  "displayName": "NMEA 0183 Grammar",
+  "description": "NMEA 0183 Protocol Syntax Highlighting",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "nmea0183",
+        "aliases": [
+          "NMEA 0183",
+          "nmea0183"
+        ],
+        "extensions": [
+          ".nmea",
+          ".nmea0183",
+          ".txt",
+          ".log",
+          ".dat"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nmea0183",
+        "scopeName": "source.nmea0183",
+        "path": "./syntaxes/nmea0183.tmLanguage.json"
+      }
+    ]
+  }
+}
