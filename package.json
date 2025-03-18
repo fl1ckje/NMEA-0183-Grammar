@@ -28,6 +28,9 @@
     "color": "#292d3e",
     "theme": "dark"
   },
+  "repository": {
+    "url": "https://github.com/fl1ckje/NMEA-0183-Grammar"
+  },
   "contributes": {
     "languages": [
       {
