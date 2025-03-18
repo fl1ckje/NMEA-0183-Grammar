@@ -3,17 +3,31 @@
   "displayName": "NMEA 0183 Grammar",
   "description": "NMEA 0183 Protocol Syntax Highlighting",
   "version": "1.0.0",
+  "icon": "images/icon.png",
+  "publisher": "fl1ckje",
   "author": {
     "name": "fl1ckje",
     "email": "fl1ckje@mail.ru",
     "url": "https://github.com/fl1ckje"
   },
+  "license": "Please see LICENSE",
   "engines": {
     "vscode": "^1.98.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "keywords": [
+    "nmea",
+    "language",
+    "syntax",
+    "grammar",
+    "highlighting"
+  ],
+  "galleryBanner": {
+    "color": "#292d3e",
+    "theme": "dark"
+  },
   "contributes": {
     "languages": [
       {
