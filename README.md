@@ -1,6 +1,6 @@
 # NMEA 0183 Grammar
 
-This extension provides a TextMate grammar for protocol NMEA 0183 sentences. This grammar is used for VS Code's built-in NMEA 0183 protocol sentences syntax highlighting.
+This extension provides a TextMate grammar for protocol NMEA 0183 sentences. This grammar is used for NMEA 0183 protocol sentences syntax highlighting is VS Code.
 
 ![dark-theme](https://github.com/user-attachments/assets/e37553bc-c2ec-43d1-bee7-35e8222f618a)
 
