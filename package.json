@@ -2,7 +2,7 @@
   "name": "nmea-0183-grammar",
   "displayName": "NMEA 0183 Grammar",
   "description": "NMEA 0183 Protocol Syntax Highlighting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "images/icon.png",
   "publisher": "fl1ckje",
   "author": {
